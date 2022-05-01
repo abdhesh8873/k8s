@@ -6,7 +6,7 @@ spec:
   replicas: 3
   selector: 
     app: mynginx
-  temlate: 
+  template: 
     metadata:
     labels:
       app: mynginx
