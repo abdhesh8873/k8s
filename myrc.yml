@@ -8,11 +8,11 @@ spec:
     app: mynginx
   template: 
     metadata:
-    labels:
-      app: mynginx
+      labels:
+           app: mynginx
     spec:
        containers: 
-        - name: mynginx-container
-          image: nginx
-          ports:
-           - containerPort: 80
+          - name: mynginx-container
+            image: nginx
+            ports:
+             - containerPort: 80
