@@ -3,8 +3,7 @@ kind: Service
 metadata:
   name: nginx-svc
   labels:
-     app: mynginx
-     version: 2.6.2
+     app: mynginx     
 spec:
   type: NodePort
   ports:
@@ -13,4 +12,4 @@ spec:
     protocol: TCP
   selector:
       app: mynginx
-      version: 2.6.2
+      
